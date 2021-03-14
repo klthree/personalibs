@@ -5,7 +5,7 @@ package personalibs;
  * Currently no input validation.
  */
 
-public class Prints {
+public class Prints <E> {
     public static void print1dArr(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
@@ -108,14 +108,14 @@ public class Prints {
         System.out.println();
     }
 
-    public static void print1dArr(Object[] arr) {
+    public static <E> void print1dArr(E[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
 
-    public static void print2dArr(Object[][] arr) {
+    public static <E> void print2dArr(E[][] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j] + " ");
