@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class ConvertArray <E> {
 
-    public static ArrayList<Integer> toArray1d(int[] arr) {
+    public static ArrayList<Integer> toArrayList1d(int[] arr) {
         ArrayList<Integer> intList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -20,7 +20,7 @@ public class ConvertArray <E> {
         return intList;
     }
 
-    public static ArrayList<Double> toArray1d(double[] arr) {
+    public static ArrayList<Double> toArrayList1d(double[] arr) {
         ArrayList<Double> dblList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -30,7 +30,7 @@ public class ConvertArray <E> {
         return dblList;
     }
 
-    public static ArrayList<Boolean> toArray1d(boolean[] arr) {
+    public static ArrayList<Boolean> toArrayList1d(boolean[] arr) {
         ArrayList<Boolean> boolList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -40,7 +40,7 @@ public class ConvertArray <E> {
         return boolList;
     }
 
-    public static ArrayList<Character> toArray1d(char[] arr) {
+    public static ArrayList<Character> toArrayList1d(char[] arr) {
         ArrayList<Character> charList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -50,7 +50,7 @@ public class ConvertArray <E> {
         return charList;
     }
 
-    public static ArrayList<Short> toArray1d(short[] arr) {
+    public static ArrayList<Short> toArrayList1d(short[] arr) {
         ArrayList<Short> shortList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -60,7 +60,7 @@ public class ConvertArray <E> {
         return shortList;
     }
 
-    public static ArrayList<Long> toArray1d(long[] arr) {
+    public static ArrayList<Long> toArrayList1d(long[] arr) {
         ArrayList<Long> longList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -70,7 +70,7 @@ public class ConvertArray <E> {
         return longList;
     }
 
-    public static ArrayList<Byte> toArray1d(byte[] arr) {
+    public static ArrayList<Byte> toArrayList1d(byte[] arr) {
         ArrayList<Byte> byteList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -80,7 +80,7 @@ public class ConvertArray <E> {
         return byteList;
     }
 
-    public static ArrayList<String> toArray1d(String[] arr) {
+    public static ArrayList<String> toArrayList1d(String[] arr) {
         ArrayList<String> stringList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -90,7 +90,7 @@ public class ConvertArray <E> {
         return stringList;
     }
 
-    public static ArrayList<Float> toArray1d(float[] arr) {
+    public static ArrayList<Float> toArrayList1d(float[] arr) {
         ArrayList<Float> floatList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
@@ -100,7 +100,7 @@ public class ConvertArray <E> {
         return floatList;
     }
 
-    public static <E> ArrayList<E> toArray1d(E[] arr) {
+    public static <E> ArrayList<E> toArrayList1d(E[] arr) {
         ArrayList<E> elementList = new ArrayList<>(arr.length);
 
         for (int i = 0; i < arr.length; i++) {
